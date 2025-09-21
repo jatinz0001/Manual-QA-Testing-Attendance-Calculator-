@@ -1,44 +1,59 @@
-# Putting My Attendance Calculator App to the Test
+# Testing My Attendance Calculator Project
 
-Hey there! Thanks for checking out my project.
+### About This Project
 
-We've all been there—trying to figure out if we can miss one more class without falling below that dreaded 75% attendance mark. I built a simple web app to solve that exact problem.
+Hello. I made a small web app to calculate class attendance.
 
-But what good is an app if it's buggy or confusing? That's what this project is all about. I switched hats from being the developer to being the user (and a very picky one at that!) to make sure the calculator was solid.
-
----
-
-### My Game Plan: How I Tackled the Testing
-
-I decided to go with **manual testing** because I wanted to really put myself in a user's shoes. I didn't just want to see if it *worked*; I wanted to see how it *felt* to use.
-
-Here’s what I focused on:
-
-* **Does the math actually work? (Functional Testing)**
-    I checked all the calculations with different numbers to make sure the results were always accurate.
-
-* **Does it look good and feel easy to use? (UI/UX Testing)**
-    I clicked every button, checked the layout on different browsers (Chrome, Firefox, Edge), and made sure everything felt intuitive.
-
-* **What happens if someone tries to break it? (Validation Testing)**
-    This was the fun part. I tried leaving fields blank, typing in letters instead of numbers, and using negative values to see if the app would handle it gracefully (it did!).
+This project is about how I tested that app. I wanted to make sure it works well and has no problems.
 
 ---
 
-### The Full Breakdown: My Test Plan
+### The App I Tested
 
-I didn't just randomly click around. I created a detailed test plan with over 20 specific scenarios. For each one, I documented what I expected to happen and what *actually* happened.
+The app is a simple calculator and it is created by me. Here is what it does:
 
-It gives a really clear picture of how thorough the testing was.
-
-** curious to see the details? You can check out the full plan here:**
-
-**[➡️ View the Full Test Case Document](YOUR_LINK_HERE)**
+* You can enter your "classes attended" and "total classes".
+* You can also enter your "target percentage".
+* It calculates your current attendance percentage.
+* It tells you if you have met your target.
+* It has a "Calculate" button and a "Reset" button.
 
 ---
 
-### What I Walked Away With
+### How I Tested the App
 
-This project was a fantastic learning experience. It really hammered home that building something is only half the battle; making sure it's high-quality is the other half. I got a lot better at anticipating user mistakes and thinking about all the little things that make an app feel polished and trustworthy.
+I tested the app myself, like a normal user would. I did not use any special software for it.
 
-Got any questions or feedback? Feel free to reach out!
+I checked a few important things:
+
+1.  **Does it work right?**
+    * I checked if the math and all the calculations are correct.
+
+2.  **Is it easy to use?**
+    * I checked if the app looks good and if the buttons are easy to click.
+
+3.  **What if you enter wrong information?**
+    * I tried to use letters instead of numbers. I also tried using negative numbers to see if the app would crash.
+
+4.  **Does it work on different web browsers?**
+    * I opened the app on Google Chrome and Mozilla Firefox to see if it looked the same.
+
+---
+
+### My Test Plan (The List of All Tests)
+
+I made a list of all the tests I did. It has more than 20 different tests. This list shows all the work I have done for this testing project.
+
+You can see my full test list by clicking the link below.
+
+**[Click here to see the full list of tests](YOUR_LINK_HERE)**
+
+---
+
+### What I Learned
+
+* I learned that testing is very important to make good software.
+* It is helpful to think like a user to find problems.
+* Making a plan before testing helps to do a better job.
+
+Thank you for looking at my project.
